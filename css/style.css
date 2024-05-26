@@ -1,0 +1,417 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: #042433 no-repeat;
+	height: 100vh;
+	position: relative;
+}
+nav{
+	background: #042433;
+	height: 100px;
+	width: 100%;
+}
+.enlace{
+	position: absolute;
+	padding: 15px 20px;
+}
+.logo{
+	width: 80px;
+	height: 70px;
+}
+.logonom{
+	color: #fff;
+	display: flex;
+	position: absolute;
+	left: 110px;
+	top: 25px;
+	font-size: 25px;
+}
+.mini{
+	color: #fff;
+	position: absolute;
+	left: 110px;
+	top: 55px;
+	font-size: 12px;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: #fff;
+	font-size: 12px;
+	padding: 7px 7px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+li a:hover{
+	background: linear-gradient(150deg, #58D68D, #29C7F6);
+	transition: .5s;
+}
+.checkbtn{
+	font-size: 30px;
+	color: #fff;
+	float: right;
+	line-height: 80px;
+	margin-right: 20px;
+	cursor: pointer;
+	display: none;
+}
+#check{
+	display: none;
+}
+.userbtn{
+	font-size: 20px;
+	color: #1092B8;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+}
+#user{
+	display: none;
+}
+.facebtn{
+	font-size: 15px;
+	color: #fff;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+}
+#face{
+	display: none;
+}
+.twitbtn{
+	font-size: 15px;
+	color: #fff;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+}
+#twit{
+	display: none;
+}
+.prin{
+	text-align: center;
+}
+.prin h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 33px;
+}
+.busca h3{
+	color: #fff;
+	font-size: 20px;
+	font-weight: lighter;
+}
+.bibi{
+	text-align: center;
+}
+.uub{
+	text-align: center;
+}
+.uub h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 33px;
+}
+.aca h3{
+	color: #fff;
+	font-size: 20px;
+	font-weight: lighter;
+}
+.ubica{
+	text-align: center;
+	margin-right: 40px;
+}
+.ubi{
+	height: 400px;
+	width: 380px;
+}
+.textra h2{
+	position: absolute;
+	top: 65%;
+	left: 28%;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 57px;
+}
+.ssm{
+	position: absolute;
+	width: 50%;
+	text-align: center;
+	top: 18%;
+	left: 25%;
+}
+.card-img-overlay h5{
+	font-size: 40px;
+	color: #000;
+}
+.card-img-overlay p{
+	font-size: 20px;
+	color: #000;
+}
+.card-img-overlay h6{
+	font-size: 15px;
+	color: #000;
+	font-weight: bold;
+}
+.tenga{
+	position: absolute;
+	top: 80%;
+	left: 33%;
+	color: #fff;
+	font-size: 120%;
+}
+footer{
+	display: inherit;
+	position: fixed;
+	bottom: 0px;
+	background-color: #042433;
+	color:  #fff;
+	width: 100%;
+	font-size: 8px;
+	padding: 10px 0px;
+	text-align: center;
+	z-index: 5;
+}
+.boton{
+	width: 200px;
+	height: 45px;
+	background-color: #fff;
+	border-radius: .5em;
+	transition: background 1s;
+	position: absolute;
+	top: 110%;
+	left: 45%;
+}
+.boton:hover{
+	background: linear-gradient(150deg, #58D68D, #29C7F6);
+}
+.boton a{
+	position: absolute;
+	font-size: 25px;
+	color: #000;
+	font-weight: bold;
+	line-height: 45px;
+	left: 50px;
+	text-decoration: none;
+}
+.btn{
+	width: 200px;
+	height: 45px;
+	background-color: #fff;
+	border-radius: .5em;
+	transition: background 1s;
+	position: absolute;
+	top: 120%;
+	left: 45%;
+}
+.btn:hover{
+	background: linear-gradient(150deg, #58D68D, #29C7F6);
+}
+.btn a{
+	position: absolute;
+	font-size: 25px;
+	color: #000;
+	font-weight: bold;
+	line-height: 30px;
+	text-decoration: none;
+	left: 25px;
+}
+.registro{
+	text-align: center;
+	position: relative;
+}
+.img-fluid{
+	width: 60%;
+	height: 260px;
+}
+.contenedor{
+	width: 100%;
+	padding: 15px;
+}
+input[type="text"],
+input[type="password"]{
+	font-size: 20px;
+	width: 82%;
+	padding: 10px;
+	border: none;
+}
+.input-contenedor{
+	margin-bottom: 15px;
+	border: 1px solid #000;
+}
+.icon{
+	min-width: 50px;
+	text-align: center;
+	color: #999;
+}
+.button{
+	border: none;
+	width: 100%;
+	color: #fff;
+	font-size: 20px;
+	background: #1a2537;
+	padding: 15px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.button:hover{
+	background: cadetblue;
+}
+p{
+	text-align: center;
+}
+.link{
+	text-decoration: none;
+	color: #1a2537;
+	font-weight: 600;
+}
+.link:hover{
+	color: cadetblue;
+}
+.formulario{
+	background: #fff;
+	margin-top: 55px;
+	padding: 3px;
+}
+.formulario h1{
+	text-align: center;
+	color: #1a2537;
+	font-size: 40px;
+}
+.fordomi{
+	color: #fff;
+	margin-top: 8%;
+}
+textarea[type="text"]{
+	font-size: 20px;
+	width: 82%;
+	padding: 10px;
+	border: solid;
+}
+.veta{
+	position: absolute;
+	top: 65%;
+	left: 33%;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 45px;
+}
+.toto{
+	width: 200px;
+	height: 45px;
+	background-color: #fff;
+	border-radius: .5em;
+	transition: background 1s;
+	position: absolute;
+	top: 100%;
+	left: 42%;
+}
+.toto:hover{
+	background: linear-gradient(150deg, #58D68D, #29C7F6);
+}
+.toto a{
+	position: absolute;
+	font-size: 25px;
+	color: #000;
+	font-weight: bold;
+	line-height: 45px;
+	left: 50px;
+	text-decoration: none;
+}
+.sasa{
+	position: absolute;
+	top: 65%;
+	left: 37%;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 45px;
+}
+.contac{
+	color: #fff;
+	background: linear-gradient(150deg, #58D68D, #29C7F6);
+	height: 30%;
+	text-align: center;
+}
+iframe{
+	width: 100%;
+}
+.pqr{
+	text-align: center;
+	margin-top: 1%;
+	color: #fff;
+	font-size: 12px;
+}
+.p h4{
+	position: absolute;
+	color: #fff;
+	left: 40px;
+}
+.p p{
+	text-align: justify;
+	color: #fff;
+	padding: 0px 40px;
+}
+@media (min-width: 768px){
+	.formulario{
+		margin: auto;
+		width: 500px;
+		border-radius: 3%;
+		margin-top: 65px;
+	}
+}
+@media (max-width:  1000px){
+	.enlace{
+		padding-left: 20px;
+	}
+	nav ul li a{
+		font-size: 12px;
+	}
+}
+@media (max-width:  917px){
+	.checkbtn{
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background-position: #188e8d;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a{
+		font-size: 20px;
+	}
+	li a:hover, li a:active{
+		background: none;
+		color: #000;
+	}
+	#check:checked ~ ul{
+		left: 0;
+	}
+}
